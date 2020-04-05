@@ -5,4 +5,4 @@ I just created simple animation in html by using css and SVG images that's all .
 * CSS Animation
 
 # View of thing i did
-<img src="https://github.com/krishnadevz/CovidAnim/blob/master/svg.gif"alt="View">
+<img src="https://github.com/krishnadevz/CovidAnim/blob/master/svg.gif" alt="View">
