@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color:gray;
+    transform-origin: center;
+}
+#hand1 {
+    animation: ball .5s ease;
+   }
+   
+   @keyframes ball {
+     from {
+         transform: rotateZ(0deg);
+     }
+     to{
+         transform: rotateZ(1deg);
+     }
+   }
+   #hand2 {
+    animation: ball .5s ease;
+   }
+   
+   @keyframes ball {
+     from {
+         transform: rotateZ(0deg);
+     }
+     to{
+         transform: rotateZ(1deg);
+     }
+   }
+   
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+  /* styles for narrow screens */
+}
+
+
